@@ -75,7 +75,7 @@ Rola jaką ma w relacji
 
 
 ```
-class Relacja {
+class Relacja { // Cobit
 
 // siła wiązania:
 
@@ -143,28 +143,82 @@ sterowanie = siłowe nadawanie wag relacji
 intencja = określenie 
 
 
+
 ```
 class process {
 
 intencja
 energia
 czas
-siec = relacja[]
+siec = Relacje[]
 
 }
 ```
 
 
+
+
+
+
 ## zaininicjowanie procesu
 
+
+### Relacja
+
+Relacja dwóch organizmów
+Elementy powiązane pasywnie
+
+
 ```
-class Proces {
+class Relacja { 
 
-energia = 
-czas = 
-relacje = CoBit[] // relacja organizmów
+ siec powiazan roli [
+    { new Organizm(), new Rola Cel(), new Waga oporu() }
+ ]
+  
+}
+```
 
 
+### Relacja dwóch Sieci organizmu i otoczenia
+opis punktu w przestrzeni na podstawie relacji dwóch ośrodków
+
+```
+class Cobit { 
+
+  organizm  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci
+  srodowisko = Relacja // bierne oddziaływanie // pasywna relacja organizmów otoczenia ośrodek oddziaływania - miara strat rozproszenia
+  waga sieci = waga(cel,otoczenie) // np przedmiot leżący na ziemi ma wagę 1 - jest cłakowicie zależny od reakcji ziemi
+  typ relacji styku dwóch środowisk, organizmów
+  
+}
+```
+
+
+### Akcja - ożywienie relacji 
+
+Definijca Akcji - Działania
+
+```
+class Akcja {
+
+  intencja = // opis -> Rola
+  energia = // miara, jednostka -> szybkość reakcji
+  czas =  // -> ogranicznie oddziaływania
+
+```
+
+
+### Interakcja - Akcja w relacjach organizmów - Proces
+
+oddziaływanie Akcji na Relacje - Interakcja pomiędzy elementami
+
+```
+class Interakcja { // aktywne działanie na relację
+
+  akcja = new Akcja()  // siła i czas oddziaływania
+  punkt = new Cobit()
+  
 }
 ```
 
@@ -173,13 +227,16 @@ relacje = CoBit[] // relacja organizmów
 ## Świadomość
 
 łańcuch kolejnych zdarzeń: Interakcji procesów
-
+// histria zdarzen map interakcji, wag relacji
 
 ```
 class Swiadomosc {
-
-// histria zdarzen map interakcji, wag relacji
-mapa = Proces[]
+  model świadomości = {czas=0.9, Interakcja= 0.2 } //proporcje sensytywnosciu na czas, miejsce, interakcje
+  
+  historia = [
+    {datownik, Interakcja},
+    ...
+  ]  
 
 }
 ```

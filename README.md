@@ -320,6 +320,5 @@ class Swiadomosc {
   
   getWaga()
   
-  + świadomość
-    + zdarzenia wiązań
+  + zdarzenia wiązań()
   

@@ -165,7 +165,7 @@ siec = Relacje[]
 
 ### Relacja
 
-Relacja dwóch organizmów
+Relacja sieci organizmów
 Elementy powiązane pasywnie
 
 
@@ -180,7 +180,7 @@ class Relacja {
 ```
 
 
-### Relacja dwóch Sieci organizmu i otoczenia
+### Cobit - relacja dwóch Sieci organizmu i otoczenia
 opis punktu w przestrzeni na podstawie relacji dwóch ośrodków
 
 ```

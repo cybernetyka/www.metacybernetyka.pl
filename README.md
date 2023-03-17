@@ -180,7 +180,8 @@ class Relacja {
 }
 ```
 
-### Zdarzenie
+### Zdarzenie - Wiązanie
+ 
 
 
 Cobit swiadomy w aktualnym czasie
@@ -196,13 +197,31 @@ class Zdarzenie {
 ```
 
 
+
+Sieć Zdarzeń Relacji
+
+```
+class Relacja { 
+
+ getWaga()
+
+ siec powiazan roli [
+    { new Organizm(), new Organizm(), new Rola Cel(), new Waga siła oporu() }
+ ]
+  
+}
+```
+
+
 ### Cobit - relacja dwóch Sieci organizmu i otoczenia
 opis punktu w przestrzeni na podstawie relacji dwóch ośrodków
 
 ```
 class Cobit { 
   
-  relacja przedmiotu z otoczeniem= Relacja
+  Sieć relacji i zdarzeń
+  
+  relacja przedmiotu z otoczeniem= Relacja i Yd
   //organizm  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci
   //srodowisko = Relacja // bierne oddziaływanie // pasywna relacja organizmów otoczenia ośrodek oddziaływania - miara strat rozproszenia  
   waga = new Swiadomosc( Zdarzenie )->waga  //opór waga w całości, jeśłi brak zdarzeń to opór teoretyczny podany wstępnie
@@ -262,3 +281,45 @@ class Swiadomosc {
 }
 ```
 
+
+
+## CoBIT
+
+
+### Podstawowe:
+
+  + organizm
+  + waga podziału
+  + energia
+
+
+### Wiązanie
+
+  + otrzymana energia dla każdego elementu
+  + waga - sposób podziału energii pomiędzy 1 i 2 np. 1/2 2/3 3/4 dotyczy pierwszego elementu
+  + organizm 1, waga 2/3
+  + organizm 2, waga 1/3
+  
+  
+### Akcja
+
+  + Intencja
+  + Energia
+  + Czas
+
+
+### zdarzenie 
+
+  + Datownik
+  + Akcja
+  + Wiązanie
+  
+
+
+### CoBIT - świadomy organizm
+  
+  getWaga()
+  
+  + świadomość
+    + zdarzenia wiązań
+  

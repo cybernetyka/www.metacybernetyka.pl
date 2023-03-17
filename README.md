@@ -188,8 +188,7 @@ class Cobit {
 
   organizm  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci
   srodowisko = Relacja // bierne oddziaływanie // pasywna relacja organizmów otoczenia ośrodek oddziaływania - miara strat rozproszenia
-  waga sieci = waga(cel,otoczenie) // np przedmiot leżący na ziemi ma wagę 1 - jest cłakowicie zależny od reakcji ziemi
-  typ relacji styku dwóch środowisk, organizmów
+  waga = new Swiadomosc( interkacje[] )->waga
   
 }
 ```
@@ -217,7 +216,7 @@ oddziaływanie Akcji na Relacje - Interakcja pomiędzy elementami
 class Interakcja { // aktywne działanie na relację
 
   akcja = new Akcja()  // siła i czas oddziaływania
-  punkt = new Cobit()
+  punkt = new Cobit()   
   
 }
 ```
@@ -229,14 +228,21 @@ class Interakcja { // aktywne działanie na relację
 łańcuch kolejnych zdarzeń: Interakcji procesów
 // histria zdarzen map interakcji, wag relacji
 
+
 ```
 class Swiadomosc {
-  model świadomości = {czas=0.9, Interakcja= 0.2 } //proporcje sensytywnosciu na czas, miejsce, interakcje
+  // model świadomości = {czas=0.9, Interakcja= 0.2 } //proporcje sensytywnosciu na czas, miejsce, interakcje
   
+  // parametry pobierane:
+  waga sieci (organizm, środowisko) = waga(cel,otoczenie) // np przedmiot leżący na ziemi ma wagę 1 - jest cłakowicie zależny od reakcji ziemi, sposób podziału odbioru energii
+  
+  // typ relacji styku dwóch środowisk, organizmów
+  
+  // zbiory przechowywane do obliczeń:
   historia = [
     {datownik, Interakcja},
     ...
-  ]  
+  ]
 
 }
 ```

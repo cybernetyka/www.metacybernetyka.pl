@@ -26,4 +26,161 @@ Podobnie jak ma to miejsce w fizyce gdzie w stanie spoczynku ciało posiada ener
 
 
 
-Wyodrębniam kilka podsta
+## Digital Twin
+
+Aby odwzorować rzeczywistość potrzebny jest uniwersalny model, który opisuje stan rzeczy w stanie spoczynku
+oraz stan przepływu w stanie (re)akcji.
+
+Energia, Informacja, Materia to checha każdego elementu sieci systemu, jednak są to parametry kontekstowe zależne od użycia i wartości będą różne dla tych samych ciał biorących udział w procesie, zależnie od procesu jaki zainicjujemy.
+
+Zamykanie się na sam proces bez brania pod uwagę parametrów elementów biorących w tym udział nie daje możliwości symulacji całego spektrum możliwych scenariuszy.
+
+
+Zamykanie rzeczywistości w prostych modelach z góry ogranicza też rekombinację tej rzeczywistości, pozostawiając ją obserwatorowi, podczas gdy autonomia systemów powinna brać pod uwagę to jak zmienia się rzeczywistość.
+
+Życzeniem obserwatora mogło by być  wywieranie wpływu na system, w którym sam się znajduje, trudnośc tutaj polega na wywieraniu wpływu w układzie, w którym sam świadomie może poddać się działajacym siłom.
+
+Korzyścią jest możliwość przygotowania się tak jak robi to kierowca samochodu kierując pojazxzdem i balansując ciałem w zalezności od sytuacji której podlega, skręcając i zatrzymując pojazd.
+
+
+
+## najmniejszy możliwy element - organizm
+
+https://wp-projektu.pl/teksty/teksty-autorskie/minimalny-organizm-zywy-jako-przyklad-zlozonosci-nieredukowalnej/
+
+
+Elementem biorącym udział w każdym procesie jest cobit
+
+charakteryzuje się parametrami:
+
+Zasób, element
+
+
+```
+class Organizm {
+
+metadane:
+  energia
+  masa
+  informacja
+
+}
+```
+
+
+
+### Relacje organizmów = cobit
+
+Rola jaką ma w relacji
+
+
+```
+class Relacja {
+
+// siła wiązania:
+
+  proporcja = Proporcja() // nadana waga
+  rola = () // nadana rola
+  
+// elementy wiązania
+  wejscie = new Organizm()
+  wyjscie = new Organizm()
+
+}
+```
+
+
+Operator – konstrukcja językowa jedno-, bądź wieloargumentowa zwracająca wartość.
+
+Do podstawowych operatorów, będących elementem większości języków programowania, należą operatory arytmetyczne: dodawania (+), odejmowania (-), mnożenia (*), dzielenia (/); operatory porównania: większe niż (>), mniejsze niż (<), większe równe (>=), mniejsze równe (<=), równe (= lub ==), różne (<> lub !=), a także operatory operacji logicznych, operacji bitowych, przypisań itd. 
+
+
+
+### Interakcja cobitu - stan aktywny
+
+cykle  interakji w sieci cobitów
+
+```
+class Interakcja {
+
+operator = Operator() 
+relacje = CoBit[] // relacja organizmów
+
+
+}
+```
+
+
+
+
+
+## Siec relacji - stan pasywny
+
+
+relacja wielu organizmów lub/i wielu typów relacji
+
+```
+class siec {
+
+relacje[] = 
+
+}
+```
+
+
+
+
+## Sieć interakcji - stan aktywny 
+
+proces - cykl relacji
+
+intencja typów relacji
+mapa typów relacji na sieci
+
+typy Interakcja w sieci
+Mapa sieci
+sterowanie = siłowe nadawanie wag relacji
+intencja = określenie 
+
+
+```
+class process {
+
+intencja
+energia
+czas
+siec = relacja[]
+
+}
+```
+
+
+## zaininicjowanie procesu
+
+```
+class Proces {
+
+energia = 
+czas = 
+relacje = CoBit[] // relacja organizmów
+
+
+}
+```
+
+
+
+## Świadomość
+
+łańcuch kolejnych zdarzeń: Interakcji procesów
+
+
+```
+class Swiadomosc {
+
+// histria zdarzen map interakcji, wag relacji
+mapa = Proces[]
+
+}
+```
+

@@ -168,6 +168,7 @@ siec = Relacje[]
 Relacja sieci organizmów
 Elementy powiązane pasywnie
 
+Sieć Relacji
 
 ```
 class Relacja { 
@@ -179,20 +180,34 @@ class Relacja {
 }
 ```
 
+### Zdarzenie
+
+
+Cobit swiadomy w aktualnym czasie
+```
+class Zdarzenie { 
+
+  data
+  akcja
+  datownik
+  organizm i srodowisko  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci    
+  
+}
+```
+
 
 ### Cobit - relacja dwóch Sieci organizmu i otoczenia
 opis punktu w przestrzeni na podstawie relacji dwóch ośrodków
 
 ```
 class Cobit { 
-
-  organizm  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci
-  srodowisko = Relacja // bierne oddziaływanie // pasywna relacja organizmów otoczenia ośrodek oddziaływania - miara strat rozproszenia
-  waga = new Swiadomosc( interkacje[] )->waga
   
+  relacja przedmiotu z otoczeniem= Relacja
+  //organizm  = Relacja // aktywne oddziałwyanie // pasywna relacja organizmów - miara skutecznosci
+  //srodowisko = Relacja // bierne oddziaływanie // pasywna relacja organizmów otoczenia ośrodek oddziaływania - miara strat rozproszenia  
+  waga = new Swiadomosc( Zdarzenie )->waga  //opór waga w całości, jeśłi brak zdarzeń to opór teoretyczny podany wstępnie
 }
 ```
-
 
 ### Akcja - ożywienie relacji 
 
@@ -213,10 +228,10 @@ class Akcja {
 oddziaływanie Akcji na Relacje - Interakcja pomiędzy elementami
 
 ```
-class Interakcja { // aktywne działanie na relację
+class Interakcja { // zdarzenie, aktywne działanie na relację
 
   akcja = new Akcja()  // siła i czas oddziaływania
-  punkt = new Cobit()   
+  punkt = new Cobit( akcja, datownik )   
   
 }
 ```
@@ -240,7 +255,7 @@ class Swiadomosc {
   
   // zbiory przechowywane do obliczeń:
   historia = [
-    {datownik, Interakcja},
+    {akcja, datownik, organizm, srodowisko},
     ...
   ]
 

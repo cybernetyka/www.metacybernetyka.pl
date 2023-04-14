@@ -321,4 +321,19 @@ class Swiadomosc {
   getWaga()
   
   + zdarzenia wiązań()
+
+
+
+## Dokumentacja
+
++ [Józef Kossecki – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/w/index.php?title=J%C3%B3zef_Kossecki&oldid=18439315)
+
+
+
+
+---
+
++ [edit](https://github.com/cybernetyka/www.metacybernetyka.pl/edit/main/README.md)
+
+
   

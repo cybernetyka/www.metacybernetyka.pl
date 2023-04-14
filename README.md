@@ -331,6 +331,8 @@ class Swiadomosc {
 + [socjocybernetyka.pl](http://socjocybernetyka.pl/)
 + [Maciej Węgrzyn - Facebook](https://www.facebook.com/maciej.wegrzyn.39)
 + [Przewodnik po modelowych organizmach](http://www.uwm.edu.pl/bioinfo/dydaktyka/ncbi_pro/podstrony/model_organisms_guide.html) 
++ [COBIT – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/COBIT)
++ [Minimalny organizm żywy jako przykład złożoności nieredukowalnej? - W Poszukiwaniu Projektu](https://wp-projektu.pl/teksty/teksty-autorskie/minimalny-organizm-zywy-jako-przyklad-zlozonosci-nieredukowalnej/)
 
 
 

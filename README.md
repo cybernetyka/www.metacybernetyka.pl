@@ -326,6 +326,8 @@ class Swiadomosc {
 
 ## Dokumentacja
 
+
++ [autonom - zbiór publikacji cybernetycznych - Publikacje](http://autonom.edu.pl/publikacje.php)
 + [Józef Kossecki – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/w/index.php?title=J%C3%B3zef_Kossecki&oldid=18439315)
 + [Pan minister i pan X - rp.pl](https://www.rp.pl/plus-minus/art16874431-pan-minister-i-pan-x)
 + [socjocybernetyka.pl](http://socjocybernetyka.pl/)

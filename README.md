@@ -327,7 +327,10 @@ class Swiadomosc {
 ## Dokumentacja
 
 + [Józef Kossecki – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/w/index.php?title=J%C3%B3zef_Kossecki&oldid=18439315)
-
++ [Pan minister i pan X - rp.pl](https://www.rp.pl/plus-minus/art16874431-pan-minister-i-pan-x)
++ [socjocybernetyka.pl](http://socjocybernetyka.pl/)
++ [Maciej Węgrzyn - Facebook](https://www.facebook.com/maciej.wegrzyn.39)
++ [Przewodnik po modelowych organizmach](http://www.uwm.edu.pl/bioinfo/dydaktyka/ncbi_pro/podstrony/model_organisms_guide.html) 
 
 
 

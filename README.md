@@ -326,11 +326,25 @@ class Swiadomosc {
 
 ## Dokumentacja
 
++ [autonom - zbiór publikacji cybernetycznych - Publikacje](http://autonom.edu.pl/publikacje.php)
++ 
 + [CN 34 - "Cybernetyka walki - organizacje celowe" - YouTube](https://www.youtube.com/watch?v=XTvem0ak_cc)
 + [Józef Kossecki – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/w/index.php?title=J%C3%B3zef_Kossecki&oldid=18439315)
++ [Józef Kossecki – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/J%C3%B3zef_Kossecki#cite_note-5)
++ [Józef Kossecki - wykłady](http://nie-wierze-nikomu.pl/index.php/wiedza/jozef-kossecki-wyklady)
++ [józef kossecki - YouTube](https://www.youtube.com/results?search_query=j%C3%B3zef+kossecki)
++ [Procesy powstawania i rozwoju ruchów społecznych, [...] – Doc. Józef Kossecki - transmisja na żywo - YouTube](https://www.youtube.com/watch?v=uAhAhD3x9PE)
++ [ZNP 02. Czego uczyć się od Niemiec? - Magdalena Ziętek-Wielomska (na żywo) - YouTube](https://www.youtube.com/watch?v=lg7-z4onB0k)
++ [Metacybernetyka – Józef Kossecki – NAI Warszawa](https://naiwarszawa.pl/sklep/metacybernetyka-jozef-kossecki/)
++ [Archiwa: Ocalić od zapomnienia - Cyber Radio](https://cyber-radio.pl/category/ocalic-od-zapomnienia/)
++ [Marian Mazur - Szkoła bez lęku - YouTube](https://www.youtube.com/watch?v=poj9ZxjGnYk)
++ 
 + [Pan minister i pan X - rp.pl](https://www.rp.pl/plus-minus/art16874431-pan-minister-i-pan-x)
 + [socjocybernetyka.pl](http://socjocybernetyka.pl/)
 + [Maciej Węgrzyn - Facebook](https://www.facebook.com/maciej.wegrzyn.39)
+
++ [Narodowa Akademia Informacyjna | Omnia autem probate quod bonum est tenete](https://socjocybernetyka.wordpress.com/) https://socjocybernetyka.files.wordpress.com/2018/12/Informacyjne-dzia%C5%82anie-alkoholu-tabela.pdf
++ 
 + [Przewodnik po modelowych organizmach](http://www.uwm.edu.pl/bioinfo/dydaktyka/ncbi_pro/podstrony/model_organisms_guide.html) 
 + [COBIT – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/COBIT)
 + [Minimalny organizm żywy jako przykład złożoności nieredukowalnej? - W Poszukiwaniu Projektu](https://wp-projektu.pl/teksty/teksty-autorskie/minimalny-organizm-zywy-jako-przyklad-zlozonosci-nieredukowalnej/)
